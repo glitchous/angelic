@@ -1,0 +1,45 @@
+body {
+	background-image: url("./images/FON.webp");
+	background-attachment: center;
+	background-size: cover;
+	align-items: stretch;
+}
+.sonaria {
+	background-color: lightblue;
+	position: fixed;
+	top: 25px;
+	left: 50%;
+	width: 200px;
+	height: 500px;
+}
+
+ol {
+background-color: lightpink;
+border-radius: 20px;	
+}
+.angelic {
+	background-image: url("./images/angelic-warden.webp");
+	background-attachment: top;
+	background-size: cover;
+	height: 100px;
+	justify-content: flex-end;
+}
+.text {
+	color: red;
+	font-size: 20px;
+	text-align: center;
+}
+.zagolovok {
+	color: orange;
+	text-align: center;
+}
+.first {
+	background-image: url("./images/angelic-warden.webp");
+	height: 350px;
+	animation: myscale 5s infinite;
+}
+@keyframes myscale {
+	0% {transform: scale(1) rotate(300deg)};
+	50% {transform: scale(0.5) rotate(250deg)};
+	100% {transform: scale(50) rotate(300deg)};
+}
