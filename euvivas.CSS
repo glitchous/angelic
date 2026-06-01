@@ -1,0 +1,37 @@
+body {
+background-image: url("images/FONno2.webp");
+}
+.sonaria {
+	position: fixed;
+	background-color: red;
+	height: 200px;
+	border-radius: 20px;
+}
+.zagolovok {
+	color: lightpink;
+	font-size: 25px;
+	text-align: center;
+}
+.text {
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+}
+.euvivas {
+	justify-content: center;
+	
+	height: 300px; 
+	background-size: cover; 
+	background-position: center; 
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.first {
+	animation: myscale 5s infinite linear;
+}
+@keyframes myscale {
+	0% { transform: rotate(0deg);}
+	100% { transform: rotate(180deg);}
+}
