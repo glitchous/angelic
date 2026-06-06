@@ -43,3 +43,8 @@ border-radius: 20px;
 	50% {transform: scale(0.5) rotate(250deg)};
 	100% {transform: scale(50) rotate(300deg)};
 }
+
+a {
+	text-decoration: none;
+	color: red;
+}
